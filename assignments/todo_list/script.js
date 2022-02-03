@@ -12,6 +12,6 @@ function additem(){
     inputfield.value="";
     para.addEventListener("click", deleteitem)
     function deleteitem(){
-        todo.removeChild(para)
+        todo.removeChild(para) 
     }
 }
